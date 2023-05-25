@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width:100%;
+            border-width: 10px;
+            border-style:solid;
+            
+            border-radius: 5px;
+            margin: 15px;
+            
+
+        }
+        th, td {
+            border: 2px inset rgb(219, 19, 19);
+            
+            text-align: center;
+            
+        }
+        .r1{
+            border: 2px solid black;
+        }
+    </style>
+
+</head>
+<body>
+    <table class="tb1" >
+        <caption>Table for Item Inventory</caption>
+        <tr class="r1">
+            <th rowspan="2">S/N</th>
+            <th rowspan="2">Item type</th>
+            <th colspan="2">Name</th>            
+            <th rowspan="2">Item manufactur date</th>
+            <th rowspan="2">Item expaire date</th>
+            <th colspan="3">Item price in BTD</th>
+            <th rowspan="2"> Item id</th>
+            <th rowspan="2">Item amount</th>
+        </tr>
+        <tr>
+            <th>compay name</th>
+            <th>Item name</th>
+            <th>Parchase Price</th>
+            <th>Price tax</th>
+            <th>Selling price</th>
+
+        </tr>
+        <tr>
+            <th>1</td>
+            <td rowspan="5">Soap</td>
+            <td>lux</td>
+            <td>lux_rose_small</td>
+            <td style="font-style: date">2/6/2021</td>
+            <td>2/6/2025</td>
+            <td>67</td>
+            <td>71.45</td>
+            <td>80</td>
+            <td>splrs621625</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <th>2</td>
+            <td>lux</td>
+            <td>lux_rose_larg</td>
+            <td>2/6/2021</td>
+            <td>2/6/2025</td>
+            <td>110</td>
+            <td>125</td>
+            <td>140</td>
+            <td>splrs621625</td>
+            <td rowspan="2">75</td>
+        </tr>
+        <tr>
+            <th>2</td>
+            <td>lux</td>
+            <td>lux_rose_larg</td>
+            <td>2/6/2022</td>
+            <td>2/6/2026</td>
+            <td>110</td>
+            <td>125</td>
+            <td>140</td>
+            <td>splrs622626</td>
+            
+    </table>
+</body>
+</html>

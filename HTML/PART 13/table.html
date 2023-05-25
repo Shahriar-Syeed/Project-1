@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ei=edge">
+        <title>html table</title>
+    </head>
+    <style>
+        table, th, td {
+            border: solid 2px;
+            border-collapse: separate;
+            border-spacing: 20px;
+        }
+        th, td { 
+                padding-top: 10px;
+                padding-left: 20px;
+                padding-bottom: 30px;
+                Padding-right: 10px;
+            }   
+    </style>
+    <body style="text-align:center;">
+        <table border="1">
+            <colgroup>
+                <col style="color: #21223F; background-color:red;">
+                <col span="2" style="background-color:#FECA1B;">
+            </colgroup>
+            
+            <tr>
+                <th>S/N</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Kamrul</td>
+                <td>Hossain</td>
+                <td>32</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Shahriar</td>
+                <td>Syeed</td>
+                <td>46</td>
+            </tr>
+            <caption>Namelist of BBS employee</caption>
+        </table>
+    </body>
+</html>
